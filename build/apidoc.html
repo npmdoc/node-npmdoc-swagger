@@ -46,11 +46,11 @@
     font-weight: bold;
 }
 </style>
-<h1>api-documentation for
+<h1>api documentation for
     <a
-        
+
         href="https://github.com/swagger-api/swagger-node#readme"
-        
+
     >swagger (v0.7.5)</a>
 </h1>
 <h4>The Swagger command-line. Provides Swagger utilities and project lifecycle support.</h4>
@@ -58,115 +58,16 @@
     href="#apidoc.tableOfContents"
     id="apidoc.tableOfContents"
 ><h1>table of contents</h1></a><ol>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.swagger">module swagger</a><ol>
-        
-        <li>
-            
-            <a class="apidocElementLiA" href="#apidoc.element.swagger.convert">
-            function <span class="apidocSignatureSpan">swagger.</span>convert
-            <span class="apidocSignatureSpan">(filePath, apiDeclarations, options, cb)</span>
-            </a>
-            
-        </li>
-        
-        <li>
-            
-            <a class="apidocElementLiA" href="#apidoc.element.swagger.validate">
-            function <span class="apidocSignatureSpan">swagger.</span>validate
-            <span class="apidocSignatureSpan">(file, options, cb)</span>
-            </a>
-            
-        </li>
-        
+
     </ol></li>
-    
+
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.swagger" id="apidoc.module.swagger">module swagger</a></h1>
-    
-    
-    <h2>
-        <a href="#apidoc.element.swagger.convert" id="apidoc.element.swagger.convert">
-        function <span class="apidocSignatureSpan">swagger.</span>convert
-        <span class="apidocSignatureSpan">(filePath, apiDeclarations, options, cb)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function convert(filePath, apiDeclarations, options, cb) {
-  if (filePath) {
-    if (!fs.existsSync(join(process.cwd(), filePath))) {
-      return cb(error);
-    }
 
-    var resource = fs.readFileSync(join(process.cwd(), filePath), &#x27;utf8&#x27;);
-    var json;
-
-    try {
-      json = JSON.parse(resource);
-    } catch (error) {
-      return cb(error);
-    }
-
-    var declarations = [];
-    var tempJson;
-
-    apiDeclarations.forEach(function(currentValue) {
-      if (!fs.existsSync(join(process.cwd(), currentValue))) {
-        return cb(error);
-      }
-
-      try {
-        tempJson = JSON.parse(fs.readFileSync(join(process.cwd(), currentValue), &#x27;utf8&#x27;))
-      } catch (error) {
-        return cb(error);
-      }
-
-      declarations.push(tempJson);
-    });
-
-    var swagger2 = yaml.safeDump(swaggerConverter(json, declarations));
-
-    if (options.outputFile) {
-      fs.writeFile(join(process.cwd(), options.outputFile), swagger2, function(err) {
-        if (err) {return cb(err);}
-      });
-    } else {
-      cb(null, swagger2);
-    }
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-    
-    
-    
-    <h2>
-        <a href="#apidoc.element.swagger.validate" id="apidoc.element.swagger.validate">
-        function <span class="apidocSignatureSpan">swagger.</span>validate
-        <span class="apidocSignatureSpan">(file, options, cb)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function validate(file, options, cb) {
-
-  if (!file) { // check stream
-    process.stdin.resume();
-    process.stdin.setEncoding(&#x27;utf8&#x27;);
-    process.stdin.on(&#x27;data&#x27;, function(data) {
-      if (!data) { process.exit(1); }
-      swaggerSpec.validateSwagger(parse(data), options, cb);
-    });
-  } else {
-    var data = fs.readFileSync(file, &#x27;utf8&#x27;);
-    swaggerSpec.validateSwagger(parse(data), options, cb);
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-    
-    
 </div>
 
 <div class="apidocFooterDiv">
