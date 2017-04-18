@@ -1,7 +1,7 @@
-<svg height="5278" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="5278" fill="#555" width="720"></rect>
+<svg height="5374" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="5374" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">93 megabytes installed</tspan>
+<tspan x="10" y="26">94 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
 <tspan x="10" y="74">└─┬ swagger@0.7.5 </tspan>
@@ -84,7 +84,7 @@
 <tspan x="10" y="1306">  │ │ │ ├── arrify@1.0.1 </tspan>
 <tspan x="10" y="1322">  │ │ │ └─┬ micromatch@2.3.11 </tspan>
 <tspan x="10" y="1338">  │ │ │   ├─┬ arr-diff@2.0.0 </tspan>
-<tspan x="10" y="1354">  │ │ │   │ └── arr-flatten@1.0.1 </tspan>
+<tspan x="10" y="1354">  │ │ │   │ └── arr-flatten@1.0.3 </tspan>
 <tspan x="10" y="1370">  │ │ │   ├── array-unique@0.2.1 </tspan>
 <tspan x="10" y="1386">  │ │ │   ├─┬ braces@1.8.5 </tspan>
 <tspan x="10" y="1402">  │ │ │   │ ├─┬ expand-range@1.8.2 </tspan>
@@ -119,7 +119,7 @@
 <tspan x="10" y="1866">  │ │ ├─┬ is-glob@2.0.1 </tspan>
 <tspan x="10" y="1882">  │ │ │ └── is-extglob@1.0.0 </tspan>
 <tspan x="10" y="1898">  │ │ └─┬ readdirp@2.1.0 </tspan>
-<tspan x="10" y="1914">  │ │   ├─┬ readable-stream@2.2.8 </tspan>
+<tspan x="10" y="1914">  │ │   ├─┬ readable-stream@2.2.9 </tspan>
 <tspan x="10" y="1930">  │ │   │ ├── buffer-shims@1.0.0 </tspan>
 <tspan x="10" y="1946">  │ │   │ ├── isarray@1.0.0 </tspan>
 <tspan x="10" y="1962">  │ │   │ ├── process-nextick-args@1.0.7 </tspan>
@@ -257,77 +257,83 @@
 <tspan x="10" y="4074">    │     └── mime-db@1.27.0 </tspan>
 <tspan x="10" y="4090">    ├─┬ json-refs@2.1.6 </tspan>
 <tspan x="10" y="4106">    │ ├── native-promise-only@0.8.1 </tspan>
-<tspan x="10" y="4122">    │ ├── path-loader@1.0.1 </tspan>
-<tspan x="10" y="4138">    │ ├── slash@1.0.0 </tspan>
-<tspan x="10" y="4154">    │ └── uri-js@2.1.1 </tspan>
-<tspan x="10" y="4170">    ├── lodash-compat@3.10.2 </tspan>
-<tspan x="10" y="4186">    ├─┬ multer@1.3.0 </tspan>
-<tspan x="10" y="4202">    │ ├── append-field@0.1.0 </tspan>
-<tspan x="10" y="4218">    │ ├─┬ busboy@0.2.14 </tspan>
-<tspan x="10" y="4234">    │ │ ├─┬ dicer@0.2.5 </tspan>
-<tspan x="10" y="4250">    │ │ │ ├─┬ readable-stream@1.1.14 </tspan>
-<tspan x="10" y="4266">    │ │ │ │ ├── isarray@0.0.1 </tspan>
-<tspan x="10" y="4282">    │ │ │ │ └── string_decoder@0.10.31 </tspan>
-<tspan x="10" y="4298">    │ │ │ └── streamsearch@0.1.2 </tspan>
-<tspan x="10" y="4314">    │ │ └─┬ readable-stream@1.1.14 </tspan>
-<tspan x="10" y="4330">    │ │   ├── isarray@0.0.1 </tspan>
-<tspan x="10" y="4346">    │ │   └── string_decoder@0.10.31 </tspan>
-<tspan x="10" y="4362">    │ ├─┬ concat-stream@1.6.0 </tspan>
-<tspan x="10" y="4378">    │ │ └── typedarray@0.0.6 </tspan>
-<tspan x="10" y="4394">    │ ├── object-assign@3.0.0 </tspan>
-<tspan x="10" y="4410">    │ └── xtend@4.0.1 </tspan>
-<tspan x="10" y="4426">    ├─┬ path-to-regexp@1.7.0 </tspan>
-<tspan x="10" y="4442">    │ └── isarray@0.0.1 </tspan>
-<tspan x="10" y="4458">    ├── qs@4.0.0 </tspan>
-<tspan x="10" y="4474">    ├── spark-md5@1.0.1 </tspan>
-<tspan x="10" y="4490">    ├─┬ superagent@1.8.5 </tspan>
-<tspan x="10" y="4506">    │ ├── component-emitter@1.2.1 </tspan>
-<tspan x="10" y="4522">    │ ├── cookiejar@2.0.6 </tspan>
-<tspan x="10" y="4538">    │ ├── extend@3.0.0 </tspan>
-<tspan x="10" y="4554">    │ ├─┬ form-data@1.0.0-rc3 </tspan>
-<tspan x="10" y="4570">    │ │ └─┬ combined-stream@1.0.5 </tspan>
-<tspan x="10" y="4586">    │ │   └── delayed-stream@1.0.0 </tspan>
-<tspan x="10" y="4602">    │ ├── formidable@1.0.17 </tspan>
-<tspan x="10" y="4618">    │ ├── methods@1.1.2 </tspan>
-<tspan x="10" y="4634">    │ ├── qs@2.3.3 </tspan>
-<tspan x="10" y="4650">    │ ├─┬ readable-stream@1.0.27-1 </tspan>
-<tspan x="10" y="4666">    │ │ ├── core-util-is@1.0.2 </tspan>
-<tspan x="10" y="4682">    │ │ ├── isarray@0.0.1 </tspan>
-<tspan x="10" y="4698">    │ │ └── string_decoder@0.10.31 </tspan>
-<tspan x="10" y="4714">    │ └── reduce-component@1.0.1 </tspan>
-<tspan x="10" y="4730">    ├─┬ swagger-converter@0.1.7 </tspan>
-<tspan x="10" y="4746">    │ └─┬ lodash.clonedeep@2.4.1 </tspan>
-<tspan x="10" y="4762">    │   ├─┬ lodash._baseclone@2.4.1 </tspan>
-<tspan x="10" y="4778">    │   │ ├─┬ lodash._getarray@2.4.1 </tspan>
-<tspan x="10" y="4794">    │   │ │ └── lodash._arraypool@2.4.1 </tspan>
-<tspan x="10" y="4810">    │   │ ├─┬ lodash._releasearray@2.4.1 </tspan>
-<tspan x="10" y="4826">    │   │ │ └── lodash._maxpoolsize@2.4.1 </tspan>
-<tspan x="10" y="4842">    │   │ ├── lodash._slice@2.4.1 </tspan>
-<tspan x="10" y="4858">    │   │ ├─┬ lodash.assign@2.4.1 </tspan>
-<tspan x="10" y="4874">    │   │ │ ├── lodash._objecttypes@2.4.1 </tspan>
-<tspan x="10" y="4890">    │   │ │ └─┬ lodash.keys@2.4.1 </tspan>
-<tspan x="10" y="4906">    │   │ │   └── lodash._shimkeys@2.4.1 </tspan>
-<tspan x="10" y="4922">    │   │ ├── lodash.foreach@2.4.1 </tspan>
-<tspan x="10" y="4938">    │   │ ├─┬ lodash.forown@2.4.1 </tspan>
-<tspan x="10" y="4954">    │   │ │ └── lodash.keys@2.4.1 </tspan>
-<tspan x="10" y="4970">    │   │ ├─┬ lodash.isarray@2.4.1 </tspan>
-<tspan x="10" y="4986">    │   │ │ └── lodash._isnative@2.4.1 </tspan>
-<tspan x="10" y="5002">    │   │ └── lodash.isobject@2.4.1 </tspan>
-<tspan x="10" y="5018">    │   └─┬ lodash._basecreatecallback@2.4.1 </tspan>
-<tspan x="10" y="5034">    │     ├─┬ lodash._setbinddata@2.4.1 </tspan>
-<tspan x="10" y="5050">    │     │ └── lodash.noop@2.4.1 </tspan>
-<tspan x="10" y="5066">    │     ├─┬ lodash.bind@2.4.1 </tspan>
-<tspan x="10" y="5082">    │     │ └─┬ lodash._createwrapper@2.4.1 </tspan>
-<tspan x="10" y="5098">    │     │   ├─┬ lodash._basebind@2.4.1 </tspan>
-<tspan x="10" y="5114">    │     │   │ └── lodash._basecreate@2.4.1 </tspan>
-<tspan x="10" y="5130">    │     │   ├── lodash._basecreatewrapper@2.4.1 </tspan>
-<tspan x="10" y="5146">    │     │   └── lodash.isfunction@2.4.1 </tspan>
-<tspan x="10" y="5162">    │     ├── lodash.identity@2.4.1 </tspan>
-<tspan x="10" y="5178">    │     └── lodash.support@2.4.1 </tspan>
-<tspan x="10" y="5194">    ├── traverse@0.6.6 </tspan>
-<tspan x="10" y="5210">    └─┬ z-schema@3.18.2 </tspan>
-<tspan x="10" y="5226">      ├── lodash.get@4.4.2 </tspan>
-<tspan x="10" y="5242">      ├── lodash.isequal@4.5.0 </tspan>
-<tspan x="10" y="5258">      └── validator@6.3.0</tspan>
+<tspan x="10" y="4122">    │ ├─┬ path-loader@1.0.2 </tspan>
+<tspan x="10" y="4138">    │ │ └─┬ superagent@3.5.2 </tspan>
+<tspan x="10" y="4154">    │ │   ├── cookiejar@2.1.1 </tspan>
+<tspan x="10" y="4170">    │ │   ├─┬ form-data@2.1.4 </tspan>
+<tspan x="10" y="4186">    │ │   │ └── asynckit@0.4.0 </tspan>
+<tspan x="10" y="4202">    │ │   ├── formidable@1.1.1 </tspan>
+<tspan x="10" y="4218">    │ │   └── qs@6.4.0 </tspan>
+<tspan x="10" y="4234">    │ ├── slash@1.0.0 </tspan>
+<tspan x="10" y="4250">    │ └── uri-js@2.1.1 </tspan>
+<tspan x="10" y="4266">    ├── lodash-compat@3.10.2 </tspan>
+<tspan x="10" y="4282">    ├─┬ multer@1.3.0 </tspan>
+<tspan x="10" y="4298">    │ ├── append-field@0.1.0 </tspan>
+<tspan x="10" y="4314">    │ ├─┬ busboy@0.2.14 </tspan>
+<tspan x="10" y="4330">    │ │ ├─┬ dicer@0.2.5 </tspan>
+<tspan x="10" y="4346">    │ │ │ ├─┬ readable-stream@1.1.14 </tspan>
+<tspan x="10" y="4362">    │ │ │ │ ├── isarray@0.0.1 </tspan>
+<tspan x="10" y="4378">    │ │ │ │ └── string_decoder@0.10.31 </tspan>
+<tspan x="10" y="4394">    │ │ │ └── streamsearch@0.1.2 </tspan>
+<tspan x="10" y="4410">    │ │ └─┬ readable-stream@1.1.14 </tspan>
+<tspan x="10" y="4426">    │ │   ├── isarray@0.0.1 </tspan>
+<tspan x="10" y="4442">    │ │   └── string_decoder@0.10.31 </tspan>
+<tspan x="10" y="4458">    │ ├─┬ concat-stream@1.6.0 </tspan>
+<tspan x="10" y="4474">    │ │ └── typedarray@0.0.6 </tspan>
+<tspan x="10" y="4490">    │ ├── object-assign@3.0.0 </tspan>
+<tspan x="10" y="4506">    │ └── xtend@4.0.1 </tspan>
+<tspan x="10" y="4522">    ├─┬ path-to-regexp@1.7.0 </tspan>
+<tspan x="10" y="4538">    │ └── isarray@0.0.1 </tspan>
+<tspan x="10" y="4554">    ├── qs@4.0.0 </tspan>
+<tspan x="10" y="4570">    ├── spark-md5@1.0.1 </tspan>
+<tspan x="10" y="4586">    ├─┬ superagent@1.8.5 </tspan>
+<tspan x="10" y="4602">    │ ├── component-emitter@1.2.1 </tspan>
+<tspan x="10" y="4618">    │ ├── cookiejar@2.0.6 </tspan>
+<tspan x="10" y="4634">    │ ├── extend@3.0.0 </tspan>
+<tspan x="10" y="4650">    │ ├─┬ form-data@1.0.0-rc3 </tspan>
+<tspan x="10" y="4666">    │ │ └─┬ combined-stream@1.0.5 </tspan>
+<tspan x="10" y="4682">    │ │   └── delayed-stream@1.0.0 </tspan>
+<tspan x="10" y="4698">    │ ├── formidable@1.0.17 </tspan>
+<tspan x="10" y="4714">    │ ├── methods@1.1.2 </tspan>
+<tspan x="10" y="4730">    │ ├── qs@2.3.3 </tspan>
+<tspan x="10" y="4746">    │ ├─┬ readable-stream@1.0.27-1 </tspan>
+<tspan x="10" y="4762">    │ │ ├── core-util-is@1.0.2 </tspan>
+<tspan x="10" y="4778">    │ │ ├── isarray@0.0.1 </tspan>
+<tspan x="10" y="4794">    │ │ └── string_decoder@0.10.31 </tspan>
+<tspan x="10" y="4810">    │ └── reduce-component@1.0.1 </tspan>
+<tspan x="10" y="4826">    ├─┬ swagger-converter@0.1.7 </tspan>
+<tspan x="10" y="4842">    │ └─┬ lodash.clonedeep@2.4.1 </tspan>
+<tspan x="10" y="4858">    │   ├─┬ lodash._baseclone@2.4.1 </tspan>
+<tspan x="10" y="4874">    │   │ ├─┬ lodash._getarray@2.4.1 </tspan>
+<tspan x="10" y="4890">    │   │ │ └── lodash._arraypool@2.4.1 </tspan>
+<tspan x="10" y="4906">    │   │ ├─┬ lodash._releasearray@2.4.1 </tspan>
+<tspan x="10" y="4922">    │   │ │ └── lodash._maxpoolsize@2.4.1 </tspan>
+<tspan x="10" y="4938">    │   │ ├── lodash._slice@2.4.1 </tspan>
+<tspan x="10" y="4954">    │   │ ├─┬ lodash.assign@2.4.1 </tspan>
+<tspan x="10" y="4970">    │   │ │ ├── lodash._objecttypes@2.4.1 </tspan>
+<tspan x="10" y="4986">    │   │ │ └─┬ lodash.keys@2.4.1 </tspan>
+<tspan x="10" y="5002">    │   │ │   └── lodash._shimkeys@2.4.1 </tspan>
+<tspan x="10" y="5018">    │   │ ├── lodash.foreach@2.4.1 </tspan>
+<tspan x="10" y="5034">    │   │ ├─┬ lodash.forown@2.4.1 </tspan>
+<tspan x="10" y="5050">    │   │ │ └── lodash.keys@2.4.1 </tspan>
+<tspan x="10" y="5066">    │   │ ├─┬ lodash.isarray@2.4.1 </tspan>
+<tspan x="10" y="5082">    │   │ │ └── lodash._isnative@2.4.1 </tspan>
+<tspan x="10" y="5098">    │   │ └── lodash.isobject@2.4.1 </tspan>
+<tspan x="10" y="5114">    │   └─┬ lodash._basecreatecallback@2.4.1 </tspan>
+<tspan x="10" y="5130">    │     ├─┬ lodash._setbinddata@2.4.1 </tspan>
+<tspan x="10" y="5146">    │     │ └── lodash.noop@2.4.1 </tspan>
+<tspan x="10" y="5162">    │     ├─┬ lodash.bind@2.4.1 </tspan>
+<tspan x="10" y="5178">    │     │ └─┬ lodash._createwrapper@2.4.1 </tspan>
+<tspan x="10" y="5194">    │     │   ├─┬ lodash._basebind@2.4.1 </tspan>
+<tspan x="10" y="5210">    │     │   │ └── lodash._basecreate@2.4.1 </tspan>
+<tspan x="10" y="5226">    │     │   ├── lodash._basecreatewrapper@2.4.1 </tspan>
+<tspan x="10" y="5242">    │     │   └── lodash.isfunction@2.4.1 </tspan>
+<tspan x="10" y="5258">    │     ├── lodash.identity@2.4.1 </tspan>
+<tspan x="10" y="5274">    │     └── lodash.support@2.4.1 </tspan>
+<tspan x="10" y="5290">    ├── traverse@0.6.6 </tspan>
+<tspan x="10" y="5306">    └─┬ z-schema@3.18.2 </tspan>
+<tspan x="10" y="5322">      ├── lodash.get@4.4.2 </tspan>
+<tspan x="10" y="5338">      ├── lodash.isequal@4.5.0 </tspan>
+<tspan x="10" y="5354">      └── validator@6.3.0</tspan>
 </text>
 </svg>
