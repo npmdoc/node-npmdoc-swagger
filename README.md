@@ -1,9 +1,14 @@
-# api documentation for  [swagger (v0.7.5)](https://github.com/swagger-api/swagger-node#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-swagger.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-swagger) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-swagger.svg)](https://travis-ci.org/npmdoc/node-npmdoc-swagger)
+# npmdoc-swagger
+
+#### api documentation for  [swagger (v0.7.5)](https://github.com/swagger-api/swagger-node#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-swagger.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-swagger) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-swagger.svg)](https://travis-ci.org/npmdoc/node-npmdoc-swagger)
+
 #### The Swagger command-line. Provides Swagger utilities and project lifecycle support.
 
-[![NPM](https://nodei.co/npm/swagger.png?downloads=true)](https://www.npmjs.com/package/swagger)
+[![NPM](https://nodei.co/npm/swagger.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/swagger)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-swagger/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-swagger%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-swagger/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-swagger/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-swagger/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-swagger/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-swagger/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-swagger/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Scott Ganyo",
-        "email": "sganyo@apigee.com"
+        "name": "Scott Ganyo"
     },
     "bin": {
         "swagger": "bin/swagger.js",
@@ -74,22 +78,18 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "wordnik",
-            "email": "apiteam@helloreverb.com"
+            "name": "wordnik"
         },
         {
-            "name": "swagger-api",
-            "email": "apiteam@helloreverb.com"
+            "name": "swagger-api"
         },
         {
-            "name": "scottganyo",
-            "email": "scott@ganyo.com"
+            "name": "scottganyo"
         }
     ],
     "name": "swagger",
     "optionalDependencies": {},
     "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/swagger-api/swagger-node.git"
@@ -102,16 +102,6 @@
     "version": "0.7.5"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module swagger](#apidoc.module.swagger)
-
-
-
-# <a name="apidoc.module.swagger"></a>[module swagger](#apidoc.module.swagger)
 
 
 
